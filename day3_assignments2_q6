@@ -1,0 +1,23 @@
+package day3;
+
+public class Question6 {
+
+	public static void main(String[] args) {
+
+		String name1= "Betty";
+		String name2= "Bob";
+		String name3= "Herb";
+		String name4= "James";
+		String name5= "Jill";	
+		
+		System.out.println("Order 1 that conforms the rules:\n");
+		System.out.println("                     S C R E E N                                       ");
+		System.out.println("left aisle >> " + name2 + ", " + name5 + ", " + name1 + ", " + name3 + ", " + name4 + " << right aisle\n");
+		
+		System.out.println("Order 2 that conforms the rules:\n");
+		System.out.println("                     S C R E E N                                       ");
+		System.out.println("left aisle >> " + name2 + ", " + name5 + ", " + name3 + ", " + name1 + ", " + name4 + " << right aisle");
+
+	}
+
+}
